@@ -5,9 +5,12 @@ body {
 
 .col-md-6 {
     background-color: #fff;
-    margin-top: 10%;
+    margin-top: 9%;
 }
-
+h1{
+    color:  rgb(16 158 145);
+    font-size: 2rem;
+}
 input[type=button] {
     width: 100%;
     background-color: rgb(16 158 145);
@@ -25,7 +28,10 @@ input[type=text] {
     width: 100%;
 }
 @media screen and (max-width: 425px){
+    body{
+        height:100vh;
+    }
     .col-md-6{
-        margin: 15% 5%;
+        margin: 15% 3%;
     }
 }
